@@ -50,14 +50,14 @@ body {
 
 .singup {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
     margin: 55px 0px;
 
 }
 
 .singup>* {
-    flex-basis:30vw;
+    flex-basis:45vw;
     padding: 5px;
 }
 
