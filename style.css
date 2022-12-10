@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container {
+    flex: 1;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.header .navbar .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.singup {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 55px 0px;
+
+}
+
+.singup>* {
+    flex-basis:45vw;
+    padding: 5px;
+}
+
+.singup .description .main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.singup .description .secondary,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.singup .description .secondary {
+    padding: 15px 0px;
+}
+
+.singup .webimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb5e;
+    color: #E5E7EB;
+
+}
+
+.singup .description .btnSign,
+.action .sign .btnSign {
+    background-color: #3882f6;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    border: none;
+    font-size: 18px;
+
+
+}
+
+.container .info {
+    padding: 35px 10px;
+    margin-bottom: 35px;
+}
+
+.container .info .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 55px;
+
+}
+
+.collection {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    flex-wrap: wrap;
+}
+
+.collection .card {
+    max-width: 160px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.collection .card .block {
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.container .quote {
+    padding: 35px 10px 25px 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.container .quote .test {
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container .quote .par {
+    font-size: 28px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.container .quote .writer {
+    font-size: 24px;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+.action,
+.action .sign {
+    display: flex;
+    padding: 55px;
+
+}
+
+.action {
+
+    justify-content: center;
+}
+
+.action .sign {
+    width: 850px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.action .sign .btnSign {
+    border: 2px solid white;
+}
+.action .sign .text .main{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 15px;
+}
+
+.head,
+.footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
